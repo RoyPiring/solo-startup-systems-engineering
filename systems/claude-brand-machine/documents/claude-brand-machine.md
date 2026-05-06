@@ -1,11 +1,3 @@
----
-nextwork_uuid: f38e8012-3c4d-49db-8e56-0fcfdec31a5e
-original_filename: legendary-f38e8012-3c4d-49db-8e56-0fcfdec31a5e.md
-migrated_to: solo-startup-systems-engineering/claude-brand-machine.md
-migrated_at: 2026-05-04
-schema: nextwork-generator
----
-
 <img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
 # Build a Brand Machine with Claude

@@ -1,11 +1,3 @@
----
-nextwork_uuid: fba05b27-d209-4ec1-91d6-7e8d162319f2
-original_filename: legendary-fba05b27-d209-4ec1-91d6-7e8d162319f2.md
-migrated_to: agentic-systems-engineering/multi-agent-sales-research.md
-migrated_at: 2026-05-04
-schema: nextwork-generator
----
-
 <img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
 # Build a Multi-Agent Sales Research Tool

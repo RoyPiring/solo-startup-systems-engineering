@@ -1,14 +1,3 @@
----
-nextwork_uuid: d31a4ff3-5276-4064-a4ab-cfb03fb2f1a0
-original_filename: legendary-d31a4ff3-5276-4064-a4ab-cfb03fb2f1a0.md
-migrated_to: advisor-smb-engineering/startup-site-ai-agents.md
-migrated_at: 2026-05-04
-schema: nextwork-generator
-final_migrated_at: 2026-05-04
-final_migrated_from: advisor-smb-engineering/startup-site-ai-agents.md
-final_migrated_to: startup-systems-engineering/startup-site-ai-agents.md
----
-
 <img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
 # Ship a Startup Website with AI Agents

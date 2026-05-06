@@ -1,14 +1,3 @@
----
-nextwork_uuid: eb97ffca-4cde-41b0-9507-4765d762c83c
-original_filename: legendary-eb97ffca-4cde-41b0-9507-4765d762c83c.md
-migrated_to: advisor-smb-engineering/smb-prospect-warehouse.md
-migrated_at: 2026-05-04
-schema: nextwork-generator
-final_migrated_at: 2026-05-04
-final_migrated_from: advisor-smb-engineering/smb-prospect-warehouse.md
-final_migrated_to: startup-systems-engineering/smb-prospect-warehouse.md
----
-
 <img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
 # Build an SMB Prospect Warehouse
