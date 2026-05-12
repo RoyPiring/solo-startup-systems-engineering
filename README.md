@@ -1,6 +1,6 @@
 # Solo Startup Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-4-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--10-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-4-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--11-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *What does a solo operator build to launch and scale a startup?*
 
@@ -17,15 +17,15 @@ Systems for building and scaling a startup as a solo operator. Each system in th
 
 ## What this domain covers
 
-Reference architectures for building and scaling a startup as a solo operator. Each system documents what's needed now, what's deferred, and why — sized for one builder running zero-to-one and beyond.
+Reference architectures for building and scaling a startup as a solo operator. Each system documents what's needed now, what's deferred, and why, sized for one builder running zero-to-one and beyond.
 
 **What it isn't.** A claim of having shipped a successful startup. A blueprint for VC-stage scaling.
 
 ## Systems
 
-- **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)** — Claude · AI · Quality-Gate · GitHub
-- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)** — Multi-Agent · PineappleExpressAI · AI · Claude
-- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)** — SMB · Schema-First · Claude · ICP
-- **[Ship a Startup Website with AI Agents](./systems/startup-site-ai-agents/)** — AI · Gemini · E2E · Playwright
+- **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)**, Claude · AI · Quality-Gate · GitHub
+- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**, Multi-Agent · PineappleExpressAI · AI · Claude
+- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**, SMB · Schema-First · Claude · ICP
+- **[Ship a Startup Website with AI Agents](./systems/startup-site-ai-agents/)**, AI · Gemini · E2E · Playwright
 
 

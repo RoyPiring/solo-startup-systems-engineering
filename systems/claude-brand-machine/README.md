@@ -4,9 +4,9 @@
 
 ## Overview
 
-This project builds a Claude skill studio that generates brand-consistent artifacts through a governed, multi-agent pipeline.
-
-The system transforms a static brand definition into a repeatable production process that outputs merch, pitch decks, and video assets. Instead of manually designing each artifact, the pipeline enforces consistency through a shared design system and automated quality gates. The goal is to move from ad hoc creative work to a controlled system where outputs are predictable, auditable, and aligned across all media.
+-T-h-i-s- -p-r-o-j-e-c-t- -b-u-i-l-d-s- -a- -C-l-a-u-d-e- -s-k-i-l-l- -s-t-u-d-i-o- -t-h-a-t- -g-e-n-e-r-a-t-e-s- -b-r-a-n-d---c-o-n-s-i-s-t-e-n-t- -a-r-t-i-f-a-c-t-s- -t-h-r-o-u-g-h- -a- -g-o-v-e-r-n-e-d-,- -m-u-l-t-i---a-g-e-n-t- -p-i-p-e-l-i-n-e-.-
+-
+-T-h-e- -s-y-s-t-e-m- -t-r-a-n-s-f-o-r-m-s- -a- -s-t-a-t-i-c- -b-r-a-n-d- -d-e-f-i-n-i-t-i-o-n- -i-n-t-o- -a- -r-e-p-e-a-t-a-b-l-e- -p-r-o-d-u-c-t-i-o-n- -p-r-o-c-e-s-s- -t-h-a-t- -o-u-t-p-u-t-s- -m-e-r-c-h-,- -p-i-t-c-h- -d-e-c-k-s-,- -a-n-d- -v-i-d-e-o- -a-s-s-e-t-s-.- -I-n-s-t-e-a-d- -o-f- -m-a-n-u-a-l-l-y- -d-e-s-i-g-n-i-n-g- -e-a-c-h- -a-r-t-i-f-a-c-t-,- -t-h-e- -p-i-p-e-l-i-n-e- -e-n-f-o-r-c-e-s- -c-o-n-s-i-s-t-e-n-c-y- -t-h-r-o-u-g-h- -a- -s-h-a-r-e-d- -d-e-s-i-g-n- -s-y-s-t-e-m- -a-n-d- -a-u-t-o-m-a-t-e-d- -q-u-a-l-i-t-y- -g-a-t-e-s-.- -T-h-e- -g-o-a-l- -i-s- -t-o- -m-o-v-e- -f-r-o-m- -a-d- -h-o-c- -c-r-e-a-t-i-v-e- -w-o-r-k- -t-o- -a- -c-o-n-t-r-o-l-l-e-d- -s-y-s-t-e-m- -w-h-e-r-e- -o-u-t-p-u-t-s- -a-r-e- -p-r-e-d-i-c-t-a-b-l-e-,- -a-u-d-i-t-a-b-l-e-,- -a-n-d- -a-l-i-g-n-e-d- -a-c-r-o-s-s- -a-l-l- -m-e-d-i-a-.-
 
 The architecture is built across **10 phases**, anchored by **The Mission: A Governed Creative Pipeline** on the input side and **Setting Up the Project Environment** at the end. Each phase is listed in the Implementation section below.
 
@@ -95,7 +95,7 @@ This system is built across **10 phases**:
 6. **Establishing the Governance Layer**
 7. **Deploying Three Senior AI Quality-Gate Agents**
 8. **Publishing a Forkable GitHub Repository**
-9. **💎 Secret Mission: Social Card Skill with Full Agent Pipeline**
+9. **💎 Secret Mission: Social Card Skill with Full Agent Pipeline**, -.
 10. **Setting Up the Project Environment**
 
 For the full walkthrough with screenshots and step-by-step content, see [`documents/claude-brand-machine.md`](./documents/claude-brand-machine.md).
