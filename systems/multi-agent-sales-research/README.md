@@ -4,9 +4,9 @@
 
 ## Overview
 
--T-h-i-s- -p-r-o-j-e-c-t- -b-u-i-l-d-s- -a- -m-u-l-t-i---a-g-e-n-t- -r-e-s-e-a-r-c-h- -s-y-s-t-e-m- -d-e-s-i-g-n-e-d- -t-o- -g-e-n-e-r-a-t-e- -A-I---R-e-a-d-i-n-e-s-s- -B-r-i-e-f-s- -f-o-r- -S-M-B- -p-r-o-s-p-e-c-t-s- -i-n- -u-n-d-e-r- -1-5- -m-i-n-u-t-e-s-.-
--
--T-h-e- -s-y-s-t-e-m- -r-e-p-l-a-c-e-s- -m-a-n-u-a-l- -r-e-s-e-a-r-c-h- -w-o-r-k-f-l-o-w-s- -w-i-t-h- -c-o-o-r-d-i-n-a-t-e-d- -s-u-b-a-g-e-n-t-s- -t-h-a-t- -g-a-t-h-e-r-,- -a-n-a-l-y-z-e-,- -a-n-d- -s-y-n-t-h-e-s-i-z-e- -m-a-r-k-e-t- -d-a-t-a- -i-n-t-o- -a- -s-t-r-u-c-t-u-r-e-d- -o-u-t-p-u-t-.- -T-h-e- -o-b-j-e-c-t-i-v-e- -i-s- -t-o- -m-o-v-e- -f-r-o-m- -f-r-a-g-m-e-n-t-e-d- -r-e-s-e-a-r-c-h- -t-o- -a- -r-e-p-e-a-t-a-b-l-e- -p-i-p-e-l-i-n-e- -t-h-a-t- -p-r-o-d-u-c-e-s- -c-o-n-s-i-s-t-e-n-t-,- -h-i-g-h---q-u-a-l-i-t-y- -p-r-o-s-p-e-c-t- -i-n-t-e-l-l-i-g-e-n-c-e- -a-r-t-i-f-a-c-t-s-.-
+This project builds a multi-agent research system designed to generate AI-Readiness Briefs for SMB prospects in under 15 minutes.
+
+The system replaces manual research workflows with coordinated subagents that gather, analyze, and synthesize market data into a structured output. The objective is to move from fragmented research to a repeatable pipeline that produces consistent, high-quality prospect intelligence artifacts.
 
 The architecture is built across **10 phases**, anchored by **Building PineappleExpressAI's Prospect Research Engine** on the input side and **Scale Testing Across Three Austin Verticals** at the end. Each phase is listed in the Implementation section below.
 
@@ -111,7 +111,7 @@ This system is built across **10 phases**:
 7. **Tracing Multi-Agent Execution with Langfuse**
 8. **Mapping the Architecture with C4 Diagrams**
 9. **Polishing the Brief into a Sales-Ready Visual**
-10. **Scale Testing Across Three Austin Verticals**, -.
+10. **Scale Testing Across Three Austin Verticals**
 
 For the full walkthrough with screenshots and step-by-step content, see [`documents/multi-agent-sales-research.md`](./documents/multi-agent-sales-research.md).
 

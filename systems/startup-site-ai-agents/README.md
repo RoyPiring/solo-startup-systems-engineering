@@ -4,9 +4,9 @@
 
 ## Overview
 
--T-h-i-s- -p-r-o-j-e-c-t- -b-u-i-l-d-s- -a- -m-u-l-t-i---p-a-g-e- -N-e-x-t-.-j-s- -w-e-b-s-i-t-e- -f-o-r- -a- -f-i-c-t-i-o-n-a-l- -A-I- -a-d-v-i-s-o-r-y- -s-t-a-r-t-u-p-,- -P-i-n-e-a-p-p-l-e-A-I-,- -u-s-i-n-g- -p-a-r-a-l-l-e-l- -A-I- -a-g-e-n-t-s- -i-n-s-i-d-e- -A-n-t-i-g-r-a-v-i-t-y- -I-D-E-.-
--
--T-h-e- -o-b-j-e-c-t-i-v-e- -i-s- -t-o- -d-e-l-i-v-e-r- -a- -p-r-o-d-u-c-t-i-o-n---r-e-a-d-y- -s-i-t-e- -w-i-t-h- -a- -l-a-n-d-i-n-g- -p-a-g-e-,- -s-e-r-v-i-c-e-s- -p-a-g-e-,- -a-b-o-u-t- -p-a-g-e-,- -a-n-d- -c-o-n-t-a-c-t- -f-o-r-m- -w-i-t-h-i-n- -a- -c-o-n-s-t-r-a-i-n-e-d- -t-i-m-e- -w-i-n-d-o-w-.- -T-h-e- -f-o-c-u-s- -i-s- -n-o-t- -j-u-s-t- -s-p-e-e-d-,- -b-u-t- -p-r-o-v-i-n-g- -t-h-a-t- -c-o-o-r-d-i-n-a-t-e-d- -A-I- -a-g-e-n-t-s- -c-a-n- -g-e-n-e-r-a-t-e-,- -v-a-l-i-d-a-t-e-,- -a-n-d- -d-e-p-l-o-y- -a- -c-o-m-p-l-e-t-e- -w-e-b- -s-y-s-t-e-m- -w-h-i-l-e- -m-a-i-n-t-a-i-n-i-n-g- -c-o-n-s-i-s-t-e-n-c-y- -a-c-r-o-s-s- -a-r-c-h-i-t-e-c-t-u-r-e-,- -d-e-s-i-g-n-,- -a-n-d- -a-c-c-e-s-s-i-b-i-l-i-t-y-.-
+This project builds a multi-page Next.js website for a fictional AI advisory startup, PineappleAI, using parallel AI agents inside Antigravity IDE.
+
+The objective is to deliver a production-ready site with a landing page, services page, about page, and contact form within a constrained time window. The focus is not just speed, but proving that coordinated AI agents can generate, validate, and deploy a complete web system while maintaining consistency across architecture, design, and accessibility.
 
 The architecture is built across **10 phases**, anchored by **Shipping a Real Startup Website with AI-Assisted Development** on the input side and **Case Studies Page with Animations and Dark/Light Mode** at the end. Each phase is listed in the Implementation section below.
 
@@ -106,7 +106,7 @@ This system is built across **10 phases**:
 7. **Achieving Zero Accessibility Violations with axe-core**
 8. **Writing E2E Tests with Playwright**
 9. **Merging Branches and Deploying to Vercel**
-10. **Case Studies Page with Animations and Dark/Light Mode**, -.
+10. **Case Studies Page with Animations and Dark/Light Mode**
 
 For the full walkthrough with screenshots and step-by-step content, see [`documents/startup-site-ai-agents.md`](./documents/startup-site-ai-agents.md).
 
