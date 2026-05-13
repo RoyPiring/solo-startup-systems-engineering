@@ -1,6 +1,6 @@
 # Solo Startup Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-4-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--11-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-5-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--13-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *What does a solo operator build to launch and scale a startup?*
 
@@ -23,6 +23,7 @@ Reference architectures for building and scaling a startup as a solo operator. E
 
 ## Systems
 
+- **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**, Advisory-Only · APIs · Obsidian · PostgreSQL
 - **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)**, Claude · AI · Quality-Gate · GitHub
 - **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**, Multi-Agent · PineappleExpressAI · AI · Claude
 - **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**, SMB · Schema-First · Claude · ICP
