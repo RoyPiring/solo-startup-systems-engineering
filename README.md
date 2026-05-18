@@ -1,6 +1,6 @@
 # Solo Startup Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-5-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--15-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-5-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--18-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *What does a solo operator build to launch and scale a startup?*
 
@@ -21,12 +21,13 @@ Reference architectures for building and scaling a startup as a solo operator. E
 
 **What it isn't.** A claim of having shipped a successful startup. A blueprint for VC-stage scaling.
 
-## Systems
+## Featured Systems
 
-- **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)**, Claude · AI · Quality-Gate · GitHub
-- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**, Multi-Agent · PineappleExpressAI · AI · Claude
-- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**, SMB · Schema-First · Claude · ICP
-- **[Ship a Startup Website with AI Agents](./systems/startup-site-ai-agents/)**, AI · Gemini · E2E · Playwright
-- **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**, Advisory-Only · APIs · Obsidian · PostgreSQL
+- **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**: 28-agent advisory platform with governance veto, PII gate, and multi-tenant RLS isolation.
+- **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)**: BRAND.md source-of-truth feeds three Claude skills behind three named quality-gate agents.
+- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**: Coordinator with parallel subagent fanout, scoring rubric, and Langfuse traces for prospect briefs.
+- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**: Schema-first Pydantic contract drives a 55K-row DuckDB warehouse with Great Expectations gates.
+- **[Ship a Startup Website with AI Agents](./systems/startup-site-ai-agents/)**: Parallel agents ship a Next.js site behind axe-core zero-violations and Playwright E2E gates to a live URL.
+
 
 
