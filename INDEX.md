@@ -13,3 +13,4 @@ Systems for building and scaling a startup as a solo operator.
 | 3 | [Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/) | 2026-05-06 | 2026-05-11 | SMB · Schema-First · Claude · ICP |
 | 4 | [Ship a Startup Website with AI Agents](./systems/startup-site-ai-agents/) | 2026-05-06 | 2026-05-11 | AI · Gemini · E2E · Playwright |
 | 5 | [Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/) | 2026-05-13 | 2026-05-13 | Advisory-Only · APIs · Obsidian · PostgreSQL |
+| 6 | [Orchestrate AI Agents to Ship Full-Stack](./systems/agent-orchestrated-advisory-platform/) | 2026-05-19 | 2026-05-19 | AI · Full-Stack · Architecture-First · Cloudflare |
