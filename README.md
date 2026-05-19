@@ -21,13 +21,14 @@ Reference architectures for building and scaling a startup as a solo operator. E
 
 **What it isn't.** A claim of having shipped a successful startup. A blueprint for VC-stage scaling.
 
-## Systems
+## Featured Systems
 
-- **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)**, Claude · AI · Quality-Gate · GitHub
-- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**, Multi-Agent · PineappleExpressAI · AI · Claude
-- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**, SMB · Schema-First · Claude · ICP
-- **[Ship a Startup Website with AI Agents](./systems/startup-site-ai-agents/)**, AI · Gemini · E2E · Playwright
-- **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**, Advisory-Only · APIs · Obsidian · PostgreSQL
-- **[Orchestrate AI Agents to Ship Full-Stack](./systems/agent-orchestrated-advisory-platform/)**, AI · Full-Stack · Architecture-First · Cloudflare
+- **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**: 28 agents with advisory-only refusal, Presidio PII gate, and Postgres row-level tenancy
+- **[Orchestrate AI Agents to Ship Full-Stack](./systems/agent-orchestrated-advisory-platform/)**: Cloudflare Workers + Neon pgvector RAG shipped by 3 parallel Claude Code agent teams
+- **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)**: Governed Claude skill studio with three QA agents shipping shirt, pitch deck, and Remotion MP4
+- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**: Coordinator-fanout subagents producing a 15-minute AI-Readiness Brief with Langfuse traces
+- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**: Schema-first warehouse with Pydantic contract, 55K-row universe, Great Expectations report
+
+_+ 1 other system in the full catalog: [`INDEX.md`](./INDEX.md)._
 
 

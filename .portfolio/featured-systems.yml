@@ -1,97 +1,108 @@
 lens: solo-startup-systems-engineering
 featured_enabled: auto
-threshold: 1
-scored_at: '2026-05-18'
+threshold: 6
+scored_at: '2026-05-19'
 human_pin: []
 systems:
 - slug: agent-advisory-firm
   axis_scores:
     technical_depth: 9
-    voice: 8
+    voice: 7
     validation: 8
   axis_reasoning:
-    technical_depth: Nine-phase build with a diagram naming 20+ components across
-      governance, refusal layer, RAG with Chroma, Postgres RLS, Presidio PII gate,
-      and multi-tenant Ollama routing.
-    voice: README is direct and decision-rich (Council veto on implementation language,
-      advisory-only refusal protects pricing power), with a few generic openers that
-      keep it shy of a perfect score.
-    validation: All nine phases marked verified with screenshots in the source doc,
-      including a deliberate veto-path test across 5 regulated verticals; evidence
-      is named but not deeply quantified.
-  average: 8.3
-  rationale: 28-agent advisory platform with governance veto, PII gate, and multi-tenant
-    RLS isolation.
+    technical_depth: 'Nine phases with eight diagram subgraphs name concrete components:
+      Presidio PII gate, Chroma + keyword fallback RAG, PostgreSQL row-level security,
+      Google Workspace domain-wide delegation, Council scoring with veto.'
+    voice: Direct on scope (advisory-only refusal, partner redirect) but uses some
+      filler around objectives; concrete on named tech.
+    validation: All nine phases checked with screenshots referenced in the source
+      doc; covers smoke testing across 5 regulated verticals.
+  average: 8.0
+  rationale: 28 agents with advisory-only refusal, Presidio PII gate, and Postgres
+    row-level tenancy
+  featured: true
+- slug: agent-orchestrated-advisory-platform
+  axis_scores:
+    technical_depth: 9
+    voice: 8
+    validation: 9
+  axis_reasoning:
+    technical_depth: Nine phases span Cloudflare Workers via OpenNext, Neon Postgres
+      with pgvector RAG, Cal.com, Turnstile cost gate, GitHub Actions CI; diagram
+      shows 3 parallel Claude Code agent teams with ownership boundaries.
+    voice: Opens with a sharp thesis ('one Principal Engineer + AI Agent Teams = a
+      full squad output'), names ADR 001 and tradeoffs directly; minimal filler.
+    validation: All nine phases checked, live production URL cited (apex-ai-advisory.rpiringhawaii.workers.dev),
+      source doc walks evidence per phase with screenshots.
+  average: 8.67
+  rationale: Cloudflare Workers + Neon pgvector RAG shipped by 3 parallel Claude Code
+    agent teams
   featured: true
 - slug: claude-brand-machine
-  axis_scores:
-    technical_depth: 8
-    voice: 8
-    validation: 8
-  axis_reasoning:
-    technical_depth: Ten phases binding a BRAND.md source-of-truth to three Claude
-      skills (shirt HTML, pitch deck, Remotion video) gated by three named quality-gate
-      agents (Brand Architect, Creative Director, Production Engineer).
-    voice: Reads as direct design-system thinking (single source of truth, dual-layer
-      review for narrative artifacts) with little filler.
-    validation: Ten phases checked including a secret-mission social-card skill; evidence
-      cited as screenshots inside the source doc, but artifact-level outputs are referenced
-      rather than linked.
-  average: 8.0
-  rationale: BRAND.md source-of-truth feeds three Claude skills behind three named
-    quality-gate agents.
-  featured: true
-- slug: multi-agent-sales-research
-  axis_scores:
-    technical_depth: 8
-    voice: 8
-    validation: 8
-  axis_reasoning:
-    technical_depth: Ten-phase orchestration with parallel subagent fanout (Industry,
-      Competitor, Pitch), a coordinator with scratchpad, Pandoc plus MiKTeX PDF pipeline,
-      and Langfuse tracing edges.
-    voice: Concrete framing (`replace 45 hours of sales research with one command`)
-      and explicit fallback logic for thin-web-presence prospects.
-    validation: Scale-tested across three Austin verticals with a scoring rubric (specificity,
-      accuracy, actionability) and Langfuse traces; phase-level evidence is described
-      rather than linked at the README layer.
-  average: 8.0
-  rationale: Coordinator with parallel subagent fanout, scoring rubric, and Langfuse
-    traces for prospect briefs.
-  featured: true
-- slug: smb-prospect-warehouse
-  axis_scores:
-    technical_depth: 8
-    voice: 7
-    validation: 7
-  axis_reasoning:
-    technical_depth: 'Eight-phase schema-first pipeline: Pydantic v2 ProspectSignal
-      contract, 55K synthetic Austin universe in DuckDB, ICP funnel, Claude headless
-      retry loop, Great Expectations suite, Parquet export, Streamlit dashboard.'
-    voice: Clear data-engineering framing (`schema acts as the contract for the entire
-      pipeline`) with some generic phase openers (`Why X matters`).
-    validation: All eight phases marked verified including the Great Expectations
-      HTML report and Monday refresh staleness diff, but the README does not name
-      the GE pass rate or row counts surfaced.
-  average: 7.3
-  rationale: Schema-first Pydantic contract drives a 55K-row DuckDB warehouse with
-    Great Expectations gates.
-  featured: true
-- slug: startup-site-ai-agents
   axis_scores:
     technical_depth: 7
     voice: 7
     validation: 8
   axis_reasoning:
-    technical_depth: Ten phases with parallel build agents in Antigravity (Gemini
-      Pro for planning, Gemini Flash for scaffolding, five page-level agents), feature-branch
-      Git flow, and Vercel deploy.
-    voice: Direct on tradeoffs (SSR cookie handling to fix flash of unstyled content)
-      but leans on stock setup prose in early phases.
-    validation: axe-core WCAG 2.2 AA zero-violations gate plus Playwright E2E gating
-      merge-to-main, with a live deployed URL (`pineapple-ai-eight.vercel.app`) as
-      end-to-end proof.
-  average: 7.3
-  rationale: Parallel agents ship a Next.js site behind axe-core zero-violations and
-    Playwright E2E gates to a live URL.
+    technical_depth: Ten phases, three skills (shirt, deck, Remotion video) plus a
+      secret-mission social card; diagram is tighter than peers but names BRAND.md
+      + CLAUDE.md governance and three quality-gate agents.
+    voice: Frames the system as moving from ad hoc creative to controlled production;
+      specific on artifacts but generic on the governance description.
+    validation: All ten phases checked including the secret mission; source doc covers
+      print-ready shirt, pitch deck, and animated MP4 outputs.
+  average: 7.33
+  rationale: Governed Claude skill studio with three QA agents shipping shirt, pitch
+    deck, and Remotion MP4
   featured: true
+- slug: multi-agent-sales-research
+  axis_scores:
+    technical_depth: 8
+    voice: 7
+    validation: 8
+  axis_reasoning:
+    technical_depth: Ten phases with coordinator-fanout-fanin pattern, parallel Industry
+      and Competitor researchers writing to a scratchpad, scoring rubric gate, Pandoc
+      + MiKTeX LaTeX output pipeline, Langfuse tracing across agents.
+    voice: Names the 15-minute brief target and concrete output pipeline tools; some
+      filler around objectives.
+    validation: Scale testing across three Austin verticals plus Langfuse traces give
+      a measurable evidence chain.
+  average: 7.67
+  rationale: Coordinator-fanout subagents producing a 15-minute AI-Readiness Brief
+    with Langfuse traces
+  featured: true
+- slug: smb-prospect-warehouse
+  axis_scores:
+    technical_depth: 8
+    voice: 8
+    validation: 8
+  axis_reasoning:
+    technical_depth: 'Eight phases on a schema-first pipeline: Pydantic v2 contract,
+      55,000-row synthetic Austin universe, ICP funnel to top 25, Claude headless
+      retry loop, DuckDB warehouse, Great Expectations quality suite, Streamlit dashboard.'
+    voice: Schema-first framing and 'enrichment engine' positioning land cleanly;
+      specific on row counts and tooling.
+    validation: All eight phases checked, Great Expectations publishes an HTML quality
+      report as a tangible artifact; Monday refresh adds staleness detection.
+  average: 8.0
+  rationale: Schema-first warehouse with Pydantic contract, 55K-row universe, Great
+    Expectations report
+  featured: true
+- slug: startup-site-ai-agents
+  axis_scores:
+    technical_depth: 7
+    voice: 6
+    validation: 8
+  axis_reasoning:
+    technical_depth: Ten phases with parallel Antigravity IDE agents per page, AGENTS.md
+      control layer, axe-core + Playwright validation, Vercel deploy; narrower in
+      tech surface than the platform peer.
+    voice: Concrete on the agent setup and a11y target but leans on 'production-ready'
+      framing in spots.
+    validation: Zero axe-core violations and Playwright E2E gating on every feature
+      branch before merge; live URL pineapple-ai-eight.vercel.app cited.
+  average: 7.0
+  rationale: Parallel Antigravity agents with axe-core WCAG 2.2 AA gate and Playwright
+    E2E before Vercel deploy
+  featured: false
