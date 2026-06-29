@@ -133,7 +133,7 @@ Changing the contract updates organizational behavior globally without requiring
 
 I built a retrieval pipeline that chunks markdown documents, detects industry verticals, and indexes content into Chroma using metadata-aware ingestion.
 
-The retrieval layer combines semantic search with vertical filtering and keyword fallback logic to improve retrieval accuracy for compliance-sensitive advisory work.
+The retrieval layer combines semantic search with vertical filtering and keyword fallback logic to raise retrieval accuracy for compliance-sensitive advisory work.
 
 A watchdog process continuously monitors the vault and automatically re-ingests modified templates without restarting the application.
 
@@ -199,7 +199,7 @@ The platform introduced real-world operational considerations around retrieval q
 
 The biggest takeaway was understanding how AI agents can operate as a governed advisory organization instead of isolated assistants.
 
-The next area I want to improve is enterprise-scale orchestration across distributed AI teams operating over longer-running advisory engagements with persistent memory and lifecycle governance.
+The next area I want to strengthen is enterprise-scale orchestration across distributed AI teams operating over longer-running advisory engagements with persistent memory and lifecycle governance.
 
 ---
 
