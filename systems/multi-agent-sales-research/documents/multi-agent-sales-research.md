@@ -105,7 +105,7 @@ Generating briefs for both real estate and healthcare demonstrates that the pipe
 
 ![Image](https://learn.nextwork.org/refreshed_maroon_timid_jujube/uploads/fba05b27-d209-4ec1-91d6-7e8d162319f2_rmej2iot)
 
-### Quality gate scores after improvements
+### Quality gate scores after refinements
 
 The scoring rubric was not executed end-to-end.
 
@@ -169,11 +169,11 @@ A plain PDF communicates information, while a branded artifact communicates qual
 
 ![Image](https://learn.nextwork.org/refreshed_maroon_timid_jujube/uploads/fba05b27-d209-4ec1-91d6-7e8d162319f2_i9kct6u5)
 
-### Identifying the bottleneck and optimizing the pipeline
+### Identifying the bottleneck and tightening the pipeline
 
 Performance analysis identifies the main constraint.
 
-The Competitor Scanner is the slowest component due to multiple sequential data fetches. Parallelizing internal operations within this agent reduces execution time and improves overall pipeline efficiency.
+The Competitor Scanner is the slowest component due to multiple sequential data fetches. Parallelizing internal operations within this agent reduces execution time and lifts overall pipeline efficiency.
 
 ---
 

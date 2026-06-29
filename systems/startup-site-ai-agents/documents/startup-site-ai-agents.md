@@ -84,7 +84,7 @@ It follows the design system defined in AGENTS.md and implements accessibility s
 
 Semantic HTML elements define structure and accessibility.
 
-Using elements like main and proper document structure enables screen readers to navigate content effectively. This ensures compliance with accessibility standards and improves usability for assistive technologies.
+Using elements like main and proper document structure enables screen readers to navigate content effectively. This ensures compliance with accessibility standards and lifts usability for assistive technologies.
 
 ## Running Parallel Agents to Build Services and About Pages
 
@@ -96,7 +96,7 @@ Each agent operates within its own feature branch, generating code for a specifi
 
 ### How parallel agents accelerate development
 
-Task specialization improves speed and accuracy.
+Task specialization sharpens speed and accuracy.
 
 High-reasoning agents handle complex logic, while faster models generate repetitive UI components. Isolating work across branches prevents context conflicts and reduces errors in generated code.
 

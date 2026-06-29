@@ -61,7 +61,7 @@ This architecture-first workflow forced design decisions before coding began. It
 
 The first architectural decision selected Cloudflare Workers through OpenNext rather than Vercel.
 
-The decision optimized for operational simplicity and cost efficiency. Cloudflare consolidated DNS, CDN, WAF, Turnstile, and compute under one vendor instead of distributing responsibilities across multiple providers.
+The decision favored operational simplicity and cost efficiency. Cloudflare consolidated DNS, CDN, WAF, Turnstile, and compute under one vendor instead of distributing responsibilities across multiple providers.
 
 For an individual operator this removed recurring cost growth and reduced management overhead. Turnstile validation, Workers execution, and edge controls all lived inside the same operational boundary.
 
@@ -117,7 +117,7 @@ areaServed mapped Austin and Texas relationships while priceRange established co
 
 The canonical URL anchored local authority directly to /austin, preventing the homepage from competing for regional queries.
 
-This improved discoverability for searches tied to local AI advisory intent and strengthened organic positioning
+This sharpened discoverability for searches tied to local AI advisory intent and strengthened organic positioning
 
 ## Streaming AI Chat Agent with Anti-Abuse Guardrails
 
@@ -201,7 +201,7 @@ Static prompts scale linearly because every request resends the entire context. 
 
 Operationally this meant updates could happen through knowledge ingestion workflows instead of deployments.
 
-Accuracy also improved because answers became grounded in retrieved content rather than generic model memory.
+Accuracy also rose because answers became grounded in retrieved content rather than generic model memory.
 
 The retrieval layer added traceability by exposing source attribution for every response.
 
