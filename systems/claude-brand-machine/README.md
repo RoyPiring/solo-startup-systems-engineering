@@ -72,9 +72,6 @@ flowchart LR
     ShirtOut -- "version HTML" --> RepoStore
     DeckOut -- "version slides" --> RepoStore
     VideoOut -- "gitignore binary" --> RepoStore
-class ShirtSkill,DeckSkill,VideoSkill,BrandArch,CreativeDir,ProdEng service
-class ShirtOut,DeckOut,VideoOut io
-
     class BrandMd,ClaudeMd,RepoStore datastore
     class ShirtSkill,DeckSkill,VideoSkill,BrandArch,CreativeDir,ProdEng service
     class Args event
@@ -102,7 +99,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/claude-brand-machine.md`](./documents/claude-brand-machine.md):
+Each build phase below is documented in [`documents/claude-brand-machine.md`](./documents/claude-brand-machine.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ The Mission: A Governed Creative Pipeline
 - ✅ Designing the Pineapple AGI Brand System

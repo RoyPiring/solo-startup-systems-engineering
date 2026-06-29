@@ -72,9 +72,6 @@ flowchart LR
     GE -- "publishes" --> HTML
     DUCK -- "queries funnel metrics for" --> STREAM
     DIFF -- "updates changed records in" --> DUCK
-class DUCK,PARQ datastore
-class SCORE event
-
     class DUCK,PARQ datastore
     class PYD,ICP,CLAUDE,DIFF,GE,STREAM service
     class SCORE event
@@ -100,7 +97,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/smb-prospect-warehouse.md`](./documents/smb-prospect-warehouse.md):
+Each build phase below is documented in [`documents/smb-prospect-warehouse.md`](./documents/smb-prospect-warehouse.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ Building a Schema-First Prospect Intelligence System
 - ✅ Verifying Claude Code and the Development Environment

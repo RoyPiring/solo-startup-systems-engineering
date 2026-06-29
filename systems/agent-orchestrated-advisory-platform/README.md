@@ -160,7 +160,6 @@ flowchart LR
     Embed --> Retrieve
     Retrieve --> AnthropicAPI
     Retrieve --> Grounded
-
     class Node,Git,ShadcnUI,OpenNext,WorkerExec,HomePage,Services,About,Booking,AustinPage service
     class ChatSheet,SSEEndpoint,AnthropicAPI,LeadForm,LeadAPI,CalCom,GoogleCal,Lint,TypeCheck,BuildGate,Deploy service
     class AgentA,AgentB,AgentC,AreaServed,Canonical,TurnstileBrowser,Embed,Retrieve,Grounded service
@@ -189,7 +188,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/agent-orchestrated-advisory-platform.md`](./documents/agent-orchestrated-advisory-platform.md):
+Each build phase below is documented in [`documents/agent-orchestrated-advisory-platform.md`](./documents/agent-orchestrated-advisory-platform.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ Orchestrating AI Agent Teams to Ship at 10x Velocity
 - ✅ Setting Up the Infrastructure Foundation

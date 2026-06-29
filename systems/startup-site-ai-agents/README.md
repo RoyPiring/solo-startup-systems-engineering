@@ -82,9 +82,6 @@ flowchart LR
     MergeEvent -->|"merges into"| MainBranch
     MainBranch -->|"deploys"| Vercel
     Vercel -->|"publishes"| LiveSite
-class FeatureBranches,MainBranch datastore
-class MergeEvent event
-
     class FeatureBranches,MainBranch datastore
     class GeminiPro,GeminiFlash,LandingAgent,ServicesAgent,AboutAgent,ContactAgent,ThemeAgent,AxeCore,Playwright,Vercel service
     class MergeEvent event
@@ -112,7 +109,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/startup-site-ai-agents.md`](./documents/startup-site-ai-agents.md):
+Each build phase below is documented in [`documents/startup-site-ai-agents.md`](./documents/startup-site-ai-agents.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ Shipping a Real Startup Website with AI-Assisted Development
 - ✅ Setting Up the Development Environment
@@ -123,4 +120,4 @@ Build outcomes verified end-to-end. Each phase below is captured with screenshot
 - ✅ Achieving Zero Accessibility Violations with axe-core
 - ✅ Writing E2E Tests with Playwright
 - ✅ Merging Branches and Deploying to Vercel
-- ✅ Case Studies Page with Animations and Dark/Light Mode
+- ✅ Case Studies Page with Animations and Dark/Light Mode (source covers the model-selection rationale; the page outcome is not separately captured)

@@ -4,7 +4,7 @@
 
 > *What does a solo operator build to launch and scale a startup?*
 
-Systems for building and scaling a startup as a solo operator. Each system in this domain ships with a Mermaid architecture diagram, a numbered implementation map, and a checkmark list of build outcomes verified end-to-end. The original source document is kept per system.
+Systems for building and scaling a startup as a solo operator. Each system in this domain ships with a Mermaid architecture diagram, a numbered implementation map, and a checkmark list of documented build phases. The original source document is kept per system.
 
 ## Who this is for
 

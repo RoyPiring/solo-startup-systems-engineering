@@ -87,9 +87,6 @@ flowchart LR
     Industry -.->|traces| Langfuse
     Competitor -.->|traces| Langfuse
     Pitch -.->|traces| Langfuse
-class AustinData,WebSrc,Scratch datastore
-class Slash,Score event
-
     class AustinData,WebSrc,Scratch datastore
     class Coord,Industry,Competitor,Pitch,Pandoc,MikTex,Design,Langfuse service
     class Slash,Score event
@@ -117,15 +114,15 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/multi-agent-sales-research.md`](./documents/multi-agent-sales-research.md):
+Each build phase below is documented in [`documents/multi-agent-sales-research.md`](./documents/multi-agent-sales-research.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ Building PineappleExpressAI's Prospect Research Engine
 - ✅ Setting Up the Automation Toolkit
 - ✅ Scaffolding the Project with AI Assistance
 - ✅ Designing Subagent Contracts in Claude Desktop
 - ✅ Building the /dossier Coordinator Command
-- ✅ Validating Across Two Austin Verticals
+- ✅ Validating Across Two Austin Verticals (source notes scoring was partial, not run end-to-end)
 - ✅ Tracing Multi-Agent Execution with Langfuse
 - ✅ Mapping the Architecture with C4 Diagrams
 - ✅ Polishing the Brief into a Sales-Ready Visual
-- ✅ Scale Testing Across Three Austin Verticals
+- ✅ Scale Testing Across Three Austin Verticals (source documents bottleneck tightening; the three-vertical run is a noted next step)

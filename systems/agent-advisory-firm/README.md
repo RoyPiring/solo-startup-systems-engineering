@@ -116,7 +116,6 @@ flowchart LR
     Plotly -->|renders into| Streamlit
     Scheduler -->|triggers periodic jobs| FastAPI
     Telemetry -->|live tenant metrics| Streamlit
-
     class AdvisoryContract,YamlContracts,Obsidian,Chroma,Postgres datastore
     class Streamlit,Plotly,Scheduler,Refusal,Council,FastAPI,Personas,Agents,Watchdog,KeywordFallback,ServiceAcct,Drive,Calendar,Docs,Rclone,SmartRouter,Presidio,RLS,Ollama,Telemetry service
     class VetoGate,PIIGate event
@@ -143,7 +142,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/28-agent-advisory-firm.md`](./documents/28-agent-advisory-firm.md):
+Each build phase below is documented in [`documents/28-agent-advisory-firm.md`](./documents/28-agent-advisory-firm.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ The Vision: Building a 28-Agent Advisory Firm
 - ✅ Launching the Streamlit Dashboard and Full Infrastructure
