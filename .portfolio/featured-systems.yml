@@ -1,7 +1,7 @@
 lens: solo-startup-systems-engineering
 featured_enabled: auto
 threshold: 6
-scored_at: '2026-05-19'
+scored_at: '2026-07-09'
 human_pin: []
 systems:
 - slug: agent-advisory-firm
@@ -54,6 +54,22 @@ systems:
   average: 7.33
   rationale: Governed Claude skill studio with three QA agents shipping shirt, pitch
     deck, and Remotion MP4
+  featured: false
+- slug: meeting-notes-to-retainer-pipeline
+  axis_scores:
+    technical_depth: 9
+    voice: 8
+    validation: 7
+  axis_reasoning:
+    technical_depth: Diagram names Claude Code, Notion, Stripe, PandaDoc, and n8n
+      with real event edges across seven gated stations and a portfolio stress test.
+    voice: Direct and specific, naming DR-2, work-pause, and deemed-acceptance, with
+      candid ownership of the unfired runtime trigger that fits the brand.
+    validation: Phase two proves live connectivity (Stripe livemode false, PandaDoc
+      HTTP 200), but the gate runtime spine stayed unfired end to end.
+  average: 8.0
+  rationale: Payment-gated client pipeline with Stripe-enforced gates, candid on the
+    unfired runtime trigger
   featured: true
 - slug: multi-agent-sales-research
   axis_scores:
