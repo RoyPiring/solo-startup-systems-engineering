@@ -5,7 +5,9 @@ This portfolio repository was built from NextWork projects, created via NextWork
 **Original NextWork projects:**
 
 - Build a 28-Agent Advisory Firm
+- Orchestrate AI Agents to Ship Full-Stack
 - Build a Brand Machine with Claude
+- Meeting Notes to Retainer Pipeline
 - Build a Multi-Agent Sales Research Tool
 - Build an SMB Prospect Warehouse
 - Ship a Startup Website with AI Agents
