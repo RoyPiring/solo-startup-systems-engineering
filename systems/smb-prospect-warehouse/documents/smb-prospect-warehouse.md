@@ -97,7 +97,7 @@ A headless Python loop processes each record and validates output against the sc
 
 Validated records confirm the pipeline is functioning correctly.
 
-An example record shows a company with an employee band of 11–50 and a confidence score of 0.74, demonstrating that enrichment outputs align with schema constraints and scoring logic.
+An example record shows a company with an employee band of 11-50 and a confidence score of 0.74, demonstrating that enrichment outputs align with schema constraints and scoring logic.
 
 ## Loading the Warehouse, Certifying Data Quality, and Launching the Dashboard
 
