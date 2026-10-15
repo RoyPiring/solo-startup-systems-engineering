@@ -63,7 +63,7 @@ The review point forced Scout to pause after three lines instead of completing t
 
 Afterward, the file contained seven empty checkboxes and an undated Plugin check line. No Calendar plugin was created, and no Calendar data entered the checklist. The pause therefore controlled document generation without pretending that approving the draft also approved account access. The checklist remained a planning artifact until I personally performed and verified each authorized setting review.
 
-## Configuring Google Workspace and Opening One Calendar Door
+## Completing the Checklist and Testing the Closed Calendar Door
 
 ### Completing founder-owned settings and the Calendar connection
 

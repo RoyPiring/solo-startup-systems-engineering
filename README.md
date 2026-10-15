@@ -21,14 +21,16 @@ Reference architectures for building and scaling a startup as a solo operator. E
 
 **What it isn't.** A claim of having shipped a successful startup. A blueprint for VC-stage scaling.
 
-## Featured Systems
+## Systems
 
-- **[Orchestrate AI Agents to Ship Full-Stack](./systems/agent-orchestrated-advisory-platform/)**: Cloudflare Workers + Neon pgvector RAG shipped by 3 parallel Claude Code agent teams
-- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**: Schema-first warehouse with Pydantic contract, 55K-row universe, Great Expectations report
-- **[Meeting Notes to Retainer Pipeline](./systems/meeting-notes-to-retainer-pipeline/)**: Payment-gated client pipeline with Stripe-enforced gates, candid on the unfired runtime trigger
-- **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**: 28 agents with advisory-only refusal, Presidio PII gate, and Postgres row-level tenancy
-- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**: Coordinator-fanout subagents producing a 15-minute AI-Readiness Brief with Langfuse traces
-
-_+ 4 other systems in the full catalog: [`INDEX.md`](./INDEX.md)._
+- **[Build a Brand Machine with Claude](./systems/claude-brand-machine/)**, Claude · AI · Quality-Gate · GitHub
+- **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**, Multi-Agent · PineappleExpressAI · AI · Claude
+- **[Build an SMB Prospect Warehouse](./systems/smb-prospect-warehouse/)**, SMB · Schema-First · Claude · ICP
+- **[Ship a Startup Website with AI Agents](./systems/startup-site-ai-agents/)**, AI · Gemini · E2E · Playwright
+- **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**, Advisory-Only · APIs · Obsidian · PostgreSQL
+- **[Orchestrate AI Agents to Ship Full-Stack](./systems/agent-orchestrated-advisory-platform/)**, AI · Full-Stack · Architecture-First · Cloudflare
+- **[Meeting Notes to Retainer Pipeline](./systems/meeting-notes-to-retainer-pipeline/)**, Payment-Gated · Stripe · Notion-CRM · Retainer
+- **[Set Up Grok Bot Approval Controls](./systems/grok-bot-approval-controls/)**, Grok Bot · Auto Review · Eleven Ask-First Rules · Denied-Delete Proof
+- **[The Calendar Door That Stayed Closed](./systems/grok-bot-calendar-closed-door/)**, Grok Bot · Closed-Door Test · Staged Checklist · No Plugin Granted
 
 

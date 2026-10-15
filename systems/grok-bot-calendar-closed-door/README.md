@@ -149,7 +149,7 @@ This system is built across **6 phases**:
 1. **Defining a Safe, Founder-Controlled Booking Goal**
 2. **Establishing the Human Approval Boundary**
 3. **Creating a Reviewable Workspace Checklist**
-4. **Configuring Google Workspace and Opening One Calendar Door**
+4. **Completing the Checklist and Testing the Closed Calendar Door**
 5. **Turning a Real Booking into Read-Only Call Preparation**
 6. **Auditing the Operating Record Against Live Systems**
 
@@ -162,6 +162,6 @@ Each build phase below is documented in [`documents/grok-bot-calendar-closed-doo
 - ✅ Defining a Safe, Founder-Controlled Booking Goal
 - ✅ Establishing the Human Approval Boundary
 - ✅ Creating a Reviewable Workspace Checklist
-- ✅ Configuring Google Workspace and Opening One Calendar Door
+- ✅ Completing the Checklist and Testing the Closed Calendar Door
 - ✅ Turning a Real Booking into Read-Only Call Preparation
 - ✅ Auditing the Operating Record Against Live Systems
