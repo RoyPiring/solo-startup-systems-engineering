@@ -8,6 +8,7 @@ This portfolio repository was built from NextWork projects, created via NextWork
 - Orchestrate AI Agents to Ship Full-Stack
 - Build a Brand Machine with Claude
 - Set Up Grok Bot Approval Controls
+- The Calendar Door That Stayed Closed
 - Meeting Notes to Retainer Pipeline
 - Build a Multi-Agent Sales Research Tool
 - Build an SMB Prospect Warehouse

@@ -16,3 +16,4 @@ Systems for building and scaling a startup as a solo operator.
 | 6 | [Orchestrate AI Agents to Ship Full-Stack](./systems/agent-orchestrated-advisory-platform/) | 2026-05-19 | 2026-06-28 | AI · Full-Stack · Architecture-First · Cloudflare |
 | 7 | [Meeting Notes to Retainer Pipeline](./systems/meeting-notes-to-retainer-pipeline/) | 2026-07-09 | 2026-07-09 | Payment-Gated · Stripe · Notion-CRM · Retainer |
 | 8 | [Set Up Grok Bot Approval Controls](./systems/grok-bot-approval-controls/) | 2026-10-14 | 2026-10-14 | Grok Bot · Auto Review · Eleven Ask-First Rules · Denied-Delete Proof |
+| 9 | [The Calendar Door That Stayed Closed](./systems/grok-bot-calendar-closed-door/) | 2026-10-15 | 2026-10-15 | Grok Bot · Closed-Door Test · Staged Checklist · No Plugin Granted |

@@ -1,6 +1,6 @@
 # Solo Startup Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-8-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--10--14-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-9-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--10--15-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *What does a solo operator build to launch and scale a startup?*
 
@@ -29,6 +29,6 @@ Reference architectures for building and scaling a startup as a solo operator. E
 - **[Build a 28-Agent Advisory Firm](./systems/agent-advisory-firm/)**: 28 agents with advisory-only refusal, Presidio PII gate, and Postgres row-level tenancy
 - **[Build a Multi-Agent Sales Research Tool](./systems/multi-agent-sales-research/)**: Coordinator-fanout subagents producing a 15-minute AI-Readiness Brief with Langfuse traces
 
-_+ 3 other systems in the full catalog: [`INDEX.md`](./INDEX.md)._
+_+ 4 other systems in the full catalog: [`INDEX.md`](./INDEX.md)._
 
 

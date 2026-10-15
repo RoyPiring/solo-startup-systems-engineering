@@ -1,7 +1,7 @@
 lens: solo-startup-systems-engineering
 featured_enabled: auto
 threshold: 6
-scored_at: '2026-10-14'
+scored_at: '2026-10-15'
 human_pin: []
 systems:
 - slug: agent-orchestrated-advisory-platform
@@ -155,4 +155,35 @@ systems:
   average: 7.0
   rationale: Parallel Antigravity agents with axe-core WCAG 2.2 AA gate and Playwright
     E2E before Vercel deploy
+  featured: false
+- slug: grok-bot-calendar-closed-door
+  axis_scores:
+    technical_depth: 5
+    voice: 9
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'The thinnest build in the lens by construction, because the point is that nothing
+      was connected. What exists is an ordering rule, a six-column connection register holding one row
+      and no account data, a staged checklist with a three-line review stop, and a usage line. The
+      sequencing is genuinely designed, with access gated behind a proven closed door and a written
+      register entry, and the review stop is a real control that caught format before it propagated. But
+      no plugin, no provider sign-in, no code and no integration exist at the end of it, and the peers in
+      this lens ship running software.'
+    voice: 'The strongest register in the lens, and it polices the one thing most likely to be oversold.
+      The doc states that the dated checklist lines represent the lab exercise rather than verified
+      changes to a live account, that no Calendar door was opened, and that the result does not prove a
+      successful read-only read. It names its own hardest problem as keeping the language accurate while
+      the title and the checklist describe a connection the run intentionally stopped short of, which is
+      the rare case of a build calling out its own headline. The owed work is specified concretely rather
+      than gestured at: an authorized plugin, a register entry carrying purpose and allowed operation,
+      and evidence that the read created, changed and sent nothing.'
+    validation: 'The negative control is real and cleanly observed. Asked for a Calendar read before any
+      plugin existed, the helper stated it had no connection and would not sign in, and the absence is
+      recorded four ways: no event title, no provider authorization flow, an unchanged register and a
+      retained refusal in the Proof section. The closing audit matched the visible meter at 1 percent
+      against the usage file without inventing an allowance. Held at 6 because there is no positive path
+      anywhere in the run. Nothing was connected, so nothing was shown to work, and much of the remaining
+      evidence confirms that a setting stayed as it was rather than that a control acted.'
+  average: 6.67
+  rationale: A refusal before any plugin existed, recorded four ways, with no successful read ever claimed
   featured: false
