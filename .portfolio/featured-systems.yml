@@ -1,26 +1,9 @@
 lens: solo-startup-systems-engineering
 featured_enabled: auto
 threshold: 6
-scored_at: '2026-07-09'
+scored_at: '2026-10-14'
 human_pin: []
 systems:
-- slug: agent-advisory-firm
-  axis_scores:
-    technical_depth: 9
-    voice: 7
-    validation: 8
-  axis_reasoning:
-    technical_depth: 'Nine phases with eight diagram subgraphs name concrete components:
-      Presidio PII gate, Chroma + keyword fallback RAG, PostgreSQL row-level security,
-      Google Workspace domain-wide delegation, Council scoring with veto.'
-    voice: Direct on scope (advisory-only refusal, partner redirect) but uses some
-      filler around objectives; concrete on named tech.
-    validation: All nine phases checked with screenshots referenced in the source
-      doc; covers smoke testing across 5 regulated verticals.
-  average: 8.0
-  rationale: 28 agents with advisory-only refusal, Presidio PII gate, and Postgres
-    row-level tenancy
-  featured: true
 - slug: agent-orchestrated-advisory-platform
   axis_scores:
     technical_depth: 9
@@ -37,56 +20,6 @@ systems:
   average: 8.67
   rationale: Cloudflare Workers + Neon pgvector RAG shipped by 3 parallel Claude Code
     agent teams
-  featured: true
-- slug: claude-brand-machine
-  axis_scores:
-    technical_depth: 7
-    voice: 7
-    validation: 8
-  axis_reasoning:
-    technical_depth: Ten phases, three skills (shirt, deck, Remotion video) plus a
-      secret-mission social card; diagram is tighter than peers but names BRAND.md
-      + CLAUDE.md governance and three quality-gate agents.
-    voice: Frames the system as moving from ad hoc creative to controlled production;
-      specific on artifacts but generic on the governance description.
-    validation: All ten phases checked including the secret mission; source doc covers
-      print-ready shirt, pitch deck, and animated MP4 outputs.
-  average: 7.33
-  rationale: Governed Claude skill studio with three QA agents shipping shirt, pitch
-    deck, and Remotion MP4
-  featured: false
-- slug: meeting-notes-to-retainer-pipeline
-  axis_scores:
-    technical_depth: 9
-    voice: 8
-    validation: 7
-  axis_reasoning:
-    technical_depth: Diagram names Claude Code, Notion, Stripe, PandaDoc, and n8n
-      with real event edges across seven gated stations and a portfolio stress test.
-    voice: Direct and specific, naming DR-2, work-pause, and deemed-acceptance, with
-      candid ownership of the unfired runtime trigger that fits the brand.
-    validation: Phase two proves live connectivity (Stripe livemode false, PandaDoc
-      HTTP 200), but the gate runtime spine stayed unfired end to end.
-  average: 8.0
-  rationale: Payment-gated client pipeline with Stripe-enforced gates, candid on the
-    unfired runtime trigger
-  featured: true
-- slug: multi-agent-sales-research
-  axis_scores:
-    technical_depth: 8
-    voice: 7
-    validation: 8
-  axis_reasoning:
-    technical_depth: Ten phases with coordinator-fanout-fanin pattern, parallel Industry
-      and Competitor researchers writing to a scratchpad, scoring rubric gate, Pandoc
-      + MiKTeX LaTeX output pipeline, Langfuse tracing across agents.
-    voice: Names the 15-minute brief target and concrete output pipeline tools; some
-      filler around objectives.
-    validation: Scale testing across three Austin verticals plus Langfuse traces give
-      a measurable evidence chain.
-  average: 7.67
-  rationale: Coordinator-fanout subagents producing a 15-minute AI-Readiness Brief
-    with Langfuse traces
   featured: true
 - slug: smb-prospect-warehouse
   axis_scores:
@@ -105,6 +38,107 @@ systems:
   rationale: Schema-first warehouse with Pydantic contract, 55K-row universe, Great
     Expectations report
   featured: true
+- slug: meeting-notes-to-retainer-pipeline
+  axis_scores:
+    technical_depth: 9
+    voice: 8
+    validation: 7
+  axis_reasoning:
+    technical_depth: Diagram names Claude Code, Notion, Stripe, PandaDoc, and n8n
+      with real event edges across seven gated stations and a portfolio stress test.
+    voice: Direct and specific, naming DR-2, work-pause, and deemed-acceptance, with
+      candid ownership of the unfired runtime trigger that fits the brand.
+    validation: Phase two proves live connectivity (Stripe livemode false, PandaDoc
+      HTTP 200), but the gate runtime spine stayed unfired end to end.
+  average: 8.0
+  rationale: Payment-gated client pipeline with Stripe-enforced gates, candid on the
+    unfired runtime trigger
+  featured: true
+- slug: agent-advisory-firm
+  axis_scores:
+    technical_depth: 9
+    voice: 7
+    validation: 8
+  axis_reasoning:
+    technical_depth: 'Nine phases with eight diagram subgraphs name concrete components:
+      Presidio PII gate, Chroma + keyword fallback RAG, PostgreSQL row-level security,
+      Google Workspace domain-wide delegation, Council scoring with veto.'
+    voice: Direct on scope (advisory-only refusal, partner redirect) but uses some
+      filler around objectives; concrete on named tech.
+    validation: All nine phases checked with screenshots referenced in the source
+      doc; covers smoke testing across 5 regulated verticals.
+  average: 8.0
+  rationale: 28 agents with advisory-only refusal, Presidio PII gate, and Postgres
+    row-level tenancy
+  featured: true
+- slug: multi-agent-sales-research
+  axis_scores:
+    technical_depth: 8
+    voice: 7
+    validation: 8
+  axis_reasoning:
+    technical_depth: Ten phases with coordinator-fanout-fanin pattern, parallel Industry
+      and Competitor researchers writing to a scratchpad, scoring rubric gate, Pandoc
+      + MiKTeX LaTeX output pipeline, Langfuse tracing across agents.
+    voice: Names the 15-minute brief target and concrete output pipeline tools; some
+      filler around objectives.
+    validation: Scale testing across three Austin verticals plus Langfuse traces give
+      a measurable evidence chain.
+  average: 7.67
+  rationale: Coordinator-fanout subagents producing a 15-minute AI-Readiness Brief
+    with Langfuse traces
+  featured: true
+- slug: grok-bot-approval-controls
+  axis_scores:
+    technical_depth: 6
+    voice: 9
+    validation: 7
+  axis_reasoning:
+    technical_depth: 'The control design is real but the surface is a vendor console configured carefully
+      rather than a system built. Spending is set to None, Auto Review is enabled and the plugin list is
+      confirmed empty before the helper exists, eleven Ask first rules cover protected actions with none
+      configured to allow itself, and a connection register carries a bank row held at NEVER. The strongest
+      idea is architectural: standing rules and the approval gate are kept apart, so instruction never
+      doubles as enforcement, and the absent mail connection backs the no-send rule technically rather than
+      by written instruction. Held at 6 because the lens peers build software, a 28-agent firm with a PII
+      gate and row-level tenancy or a schema-first warehouse over a 55,000-row universe, and this is
+      configuration with two small evidence files.'
+    voice: 'The register declines the flattering claim at every point one was available. The usage line
+      records only what the screen showed, with no heading, no estimated allowance and no limit inferred,
+      and the doc says so explicitly. The unsent note is reported as unsent. The closing passage refuses the
+      obvious summary, stating that the result worth keeping was not that the helper drafted a note or wrote
+      files but that a protected delete stopped, the denial preserved the file, no company application was
+      connected and the message never left the lab. The limits are named rather than left implied: the work
+      runs under a learning login, and a later connection is to need a separate purpose, an explicit
+      approval and a revised register.'
+    validation: 'The gate was tested with a real protected operation rather than a written example, and the
+      test deliberately targeted the evidence file it was meant to protect. The approval card named the
+      matching rule, Deny was selected, and the proof offered is the retained file still carrying its
+      purpose line, its NEVER bank row and its None row dated 2026-09-15, rather than the helper reporting
+      that it had stopped. The closing check re-read the whole control set at once instead of assuming
+      earlier settings had held. Held at 7 because only one gate was exercised and only on the Deny path, so
+      nothing here reports what an Allow would have produced, and several of the remaining checks confirm
+      that a setting is still set rather than that a control acted.'
+  average: 7.33
+  rationale: A real delete stopped at the approval card, and the unchanged file is the proof rather than the bot
+  featured: false
+- slug: claude-brand-machine
+  axis_scores:
+    technical_depth: 7
+    voice: 7
+    validation: 8
+  axis_reasoning:
+    technical_depth: Ten phases, three skills (shirt, deck, Remotion video) plus a
+      secret-mission social card; diagram is tighter than peers but names BRAND.md
+      + CLAUDE.md governance and three quality-gate agents.
+    voice: Frames the system as moving from ad hoc creative to controlled production;
+      specific on artifacts but generic on the governance description.
+    validation: All ten phases checked including the secret mission; source doc covers
+      print-ready shirt, pitch deck, and animated MP4 outputs.
+  average: 7.33
+  rationale: Governed Claude skill studio with three QA agents shipping shirt, pitch
+    deck, and Remotion MP4
+  featured: false
 - slug: startup-site-ai-agents
   axis_scores:
     technical_depth: 7
